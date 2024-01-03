@@ -46,7 +46,7 @@ class HomeController extends Controller
     {
         $firebaseToken = User::whereNotNull('device_token')->pluck('device_token')->all();
 
-        $SERVER_API_KEY = 'AAAAyzXj8Ts:APA91bH4tymiYFKKZsCvAAMThBRSHmZcVGWdyHbLVndmCoq5KeGSGvQL73yot32D3gLML2MtszTh1okBDdSj21z70qRWTwqyBSzjVPmSx7WYx508UvX3FToT0KZI34kmC8fQfViwGih4';
+        $SERVER_API_KEY = ' yourkey ';
 
         $data = [
             "registration_ids" => $firebaseToken,
