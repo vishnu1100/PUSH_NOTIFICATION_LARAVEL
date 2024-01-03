@@ -1,0 +1,10 @@
+cp .env.example .env
+
+
+composer update 
+
+php artisan serve key:generate
+
+php artisan migrate
+
+php artisan serve
