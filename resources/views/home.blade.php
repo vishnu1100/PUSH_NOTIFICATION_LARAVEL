@@ -27,7 +27,7 @@
                             <label>Body</label>
                             <textarea class="form-control" name="body"></textarea>
                           </div>
-                        <button type="submit" class="btn btn-primary">Send Notification</button>
+                        <button type="submit" class="btn btn-primary">Send </button>
                     </form>
 
                 </div>
@@ -41,13 +41,13 @@
 <script>
 
     var firebaseConfig = {
-        apiKey: "XXXXXXXXXXX",
-        authDomain: "XXXXXXXX",
-        projectId: "XXXXXXXX",
-        storageBucket: "XXXXXXXXXX",
-        messagingSenderId: "XXXXXXXXX",
-        appId: "XXXXXXXXXXXXX",
-        measurementId: "G-XXXXX"
+        apiKey: "AIzaSyA8rMh8R8TCPrUeoxI66OSxpwAFLVTzw4o",
+        authDomain: "push-notification-f503e.firebaseapp.com",
+        projectId: "push-notification-f503e",
+        storageBucket: "push-notification-f503e.appspot.com",
+        messagingSenderId: "580303880462",
+        appId: "1:580303880462:web:973af5e8f40f8b5c23175f",
+        measurementId: "G-HLMEMD5XVH"
     };
 
     firebase.initializeApp(firebaseConfig);
