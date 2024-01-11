@@ -57,6 +57,27 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## How to run this project 
+
+clone this repo 
+
+ - copy .env.example .env
+
+
+- composer update 
+
+ - php artisan  key:generate
+
+- php artisan migrate
+
+- php artisan serve
+
+
+- replace api key  in  ______ home.blade.php  ,      firebase-messaging-sw.js  in public folder and  server api key in  homecontroller in colntroller folder in http folder 
+
+
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
