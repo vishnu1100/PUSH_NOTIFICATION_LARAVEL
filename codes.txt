@@ -8,3 +8,6 @@ php artisan  key:generate
 php artisan migrate
 
 php artisan serve
+
+
+replace api key  in  ______ home.blade.php  ,      firebase-messaging-sw.js  in public folder and  server api key in  homecontroller in colntroller folder in http folder 
